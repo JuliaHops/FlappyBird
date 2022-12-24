@@ -82,7 +82,7 @@ public class Game extends JPanel implements ActionListener {
             g2.drawString("Press Enter to Start the Game", Window.WIDTH / 2 - 150, Window.HEIGHT / 2);
             g2.setColor(Color.black);
             g.setFont(new Font("Arial", 1, 15));
-            g2.drawString("Powered by Derick Felix", Window.WIDTH - 200, Window.HEIGHT - 50);
+            g2.drawString(" ", Window.WIDTH - 200, Window.HEIGHT - 50);
         }
         g2.setColor(Color.black);
         g.setFont(new Font("Arial", 1, 20));
